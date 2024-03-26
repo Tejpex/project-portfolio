@@ -1,4 +1,5 @@
 import { TitleCard } from "./components/TitleCard"
+import { TechSection } from "./components/TechSection"
 import { Projects } from "./components/Projects"
 import { Articles } from "./components/Articles"
 import './App.css'
@@ -23,7 +24,9 @@ function App() {
   return (
     <div>
       <TitleCard />
+      <TechSection />
       <div className="projects-section">
+        <h1>Featured projects</h1>
         {renderProjects}
       </div>
       <div className="articles-section">

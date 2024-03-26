@@ -1,3 +1,18 @@
+.project-card {
+    display: flex;
+}
+
 .project-image {
-    height: 60px;
+    width: 408px;
+    height: 280px;
+    flex-shrink: 0;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
 }

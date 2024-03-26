@@ -7,12 +7,15 @@ export const Projects = ( {name, description,
             netlify,
             github}) => {
   return (
-    <div>
-      Project:
-      {name},{description},{tags}
+    <div className="project-card">
       <img className="project-image" src={image} alt="" />
-      <a href={netlify}>See it</a>
-      <a href={github}>Code it</a>
+      <div className="project-info">
+        <h3 className="project-title">{name}</h3>
+        <p>{description}</p>
+        <p>{tags}</p>
+        <a href={netlify}>See it</a>
+        <a href={github}>Code it</a>
+      </div>
     </div>
   )
 }
