@@ -3,7 +3,7 @@
     {
       "name": "Happy Thoughts",
       "description": "A social media site that uses an external API, to which you can send and like Happy thoughts.",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
+      "image": "./src/assets/project-happy.png",
       "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIs"],
       "netlify": "https://boisterous-brioche-b12b23.netlify.app/",
       "github": "https://github.com/Tejpex/project-happy-thoughts-vite"
@@ -11,7 +11,7 @@
     {
       "name": "Ice Cream Survey",
       "description": "This is a site conducting a survey of the users favorite ice cream.",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "./src/assets/project-survey.png",
       "tags": ["HTML5", "CSS3", "JavaScript", "React"],
       "netlify": "https://ice-cream-survey.netlify.app/",
       "github": "https://github.com/Tejpex/project-survey-vite"
@@ -59,7 +59,7 @@
     {
       "name": "Business Site",
       "description": "A business-site for Waffle House.",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "./src/assets/project-business.png",
       "tags": ["HTML5", "CSS3"],
       "netlify": "https://star-team-1-business-site.netlify.app/",
       "github": "https://github.com/Tejpex/project-business-site"
@@ -67,7 +67,7 @@
     {
       "name": "News Site",
       "description": "This project is a news site, for news about vegetarian food.",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "./src/assets/project-news.png",
       "tags": ["HTML5", "CSS3"],
       "netlify": "https://warm-panda-028459.netlify.app/",
       "github": "https://github.com/Tejpex/project-news-site"

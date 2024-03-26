@@ -13,11 +13,15 @@ export const Projects = ( {name, description,
         <h3 className="project-title">{name}</h3>
         <p>{description}</p>
         <p>{tags}</p>
-        <a href={netlify}>See it</a>
-        <a href={github}>Code it</a>
+        <button>
+          <img src="..//src/assets/live-demo.svg" alt="Web icon" />
+          <a href={netlify}>Live demo</a>
+        </button>
+
+        <a href={github}>View the code</a>
       </div>
     </div>
-  )
+  );
 }
 
 Projects.propTypes = {

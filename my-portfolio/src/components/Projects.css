@@ -1,11 +1,19 @@
 .project-card {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    align-self: stretch;
 }
 
 .project-image {
     width: 408px;
     height: 280px;
-    flex-shrink: 0;
+    object-fit: cover;
+    border-bottom: 20px solid #6c9f14;
+    border-left: 20px solid #6c9f14;
 }
 
 .project-info {
@@ -15,4 +23,21 @@
     align-items: flex-start;
     flex: 1 0 0;
     align-self: stretch;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.project-info p {
+    font-family: "Hind", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+button {
+    border-radius: 40px;
+    background: #F5F5F5;
 }

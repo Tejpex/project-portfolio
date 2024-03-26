@@ -8,15 +8,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
+    gap: 124px;
 }
 
 .tech-section h1 {
     color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
 }
 
 .tech-section p {
     font-family: "Hind", sans-serif;
     font-size: 32px;
     font-weight: 600;
+    text-align: left;
 }
