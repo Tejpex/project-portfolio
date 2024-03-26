@@ -4,8 +4,6 @@
 
 The portfolio will be a great test of your React, HTML and CSS skills but we will also take the opportunity to get started with accessibility and build websites for everyone -- something every frontend developer should know. Don't save until the last day to do the testing -- it's very much the task of this project and will take some time.
 
-<img src="https://github.com/Technigo/project-portfolio/blob/main/Preview-PortfolioWebDev-Technigo.png" alt="" />
-
 We've created a [portfolio design](https://www.figma.com/file/ZMIWBimuoSDHXp7CdtkrA3/Web-Dev-Portfolio-%7C-new-version?type=design&node-id=1862-60&mode=design&t=clNc4tmMHa8uA3GO-0) for you that you should follow. You are free to change:
 
 - the colours (find inspiration on [ColorHunt](https://colorhunt.co/) or [Adobe](https://color.adobe.com/create/color-wheel/))
@@ -48,7 +46,7 @@ Make it super clear how a person can contact you. Again, add the social media li
 
 ## Tips on how to work with this project
 
-- Begin with forking and cloning the repo as usual. Since there is no starter code this week, you must create it by utilising [Vite](https://www.notion.so/Vite-15cd27c673d14033a1aae2d63dd37b04?pvs=21) → `npm create vite@latest my-portfolio --template`
+✅- Begin with forking and cloning the repo as usual. Since there is no starter code this week, you must create it by utilising [Vite](https://www.notion.so/Vite-15cd27c673d14033a1aae2d63dd37b04?pvs=21) → `npm create vite@latest my-portfolio --template`
 - Before starting the coding, consider what components you need and break the design into reusable and manageable pieces. Has your team already created some components during the team session? Great—use them!
 - Consider how you will get the data, e.g. the projects and articles. Do you want to go with JSON files all the way (see `projects.json` as an example), or do you want to go with the stretch goal that uses the GitHub API to get all projects?
 - When picking colours, remember to consider accessibility so that the contrast is sufficient.
@@ -57,8 +55,6 @@ Make it super clear how a person can contact you. Again, add the social media li
 ### A tip about the icons
 
 To use the icons from the design, simply mark the icon you want to export and save it as an SVG or copy the code and make it into a component.
-
-<img src="https://file.notion.so/f/f/5fa017c8-3fef-4115-8b2f-0177cad64ebc/454c9efe-8e85-4d1e-82d6-9e0192ddf7cb/ezgif.com-video-to-gif.gif?id=254d5f1b-7b4d-4be4-9b6c-5b4c58e34311&table=block&spaceId=5fa017c8-3fef-4115-8b2f-0177cad64ebc&expirationTimestamp=1711029600000&signature=oMN5Aa34q-2H8bPHYUxLiyG0ox4AwdT0bDz_hHoyjyg&downloadName=ezgif.com-video-to-gif.gif" alt="" />
 
 ## Requirements
 

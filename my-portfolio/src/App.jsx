@@ -1,24 +1,35 @@
-import { useState } from 'react'
+import { TitleCard } from "./components/TitleCard"
+import { Projects } from "./components/Projects"
+import { Articles } from "./components/Articles"
 import './App.css'
+import data from "../projects.json"
 
 function App() {
-  const [count, setCount] = useState(0)
+  const { projects } = data
+  const renderProjects = projects.map(
+    ({ name, description, image, tags, netlify, github }) => (
+      <Projects
+        key={name}
+        name={name}
+        description={description}
+        image={image}
+        tags={tags}
+        netlify={netlify}
+        github={github}
+      />
+    )
+  )
 
   return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+    <div>
+      <TitleCard />
+      <div className="projects-section">
+        {renderProjects}
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <div className="articles-section">
+        <Articles />
+      </div>
+    </div>
   )
 }
 
