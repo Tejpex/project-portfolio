@@ -37,7 +37,39 @@ h3 {
     font-weight: 400;
 }
 
-button {
+.button-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.button {
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     border-radius: 40px;
     background: #F5F5F5;
+    gap: 7px;
+}
+
+a {
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.view-live:hover {
+    background-color: #6c9f14;
+}
+
+.view-code:hover {
+    background-color: #D741A7;
 }

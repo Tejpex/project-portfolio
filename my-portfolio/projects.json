@@ -19,7 +19,7 @@
     {
       "name": "Music Releases",
       "description": "This is a site that displays some of the latest albums released on Spotify.",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "./src/assets/project-music.png",
       "tags": ["HTML5", "CSS3", "JavaScript", "React"],
       "netlify": "https://statuesque-fudge-2f1709.netlify.app/",
       "github": "https://github.com/Tejpex/project-music-releases-vite"
@@ -27,7 +27,7 @@
     {
       "name": "Weather app",
       "description": "A site to display the weather of e few cities in Sweden.",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "./src/assets/project-weather.png",
       "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
       "netlify": "https://serene-fairy-e9079b.netlify.app/",
       "github": "https://github.com/Tejpex/project-weather-app"
@@ -35,7 +35,7 @@
     {
       "name": "Plants Library",
       "description": "A library of plants you can plant in your garden. There is a function to filter the plants by type or when it's time to sow. You can also sort the plants alphabetically.",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "./src/assets/project-library.png",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "https://moonlit-jelly-c24410.netlify.app/",
       "github": "https://github.com/Tejpex/project-library"
@@ -43,7 +43,7 @@
     {
       "name": "Mathbot",
       "description": "A chatbot that delivered endless math problems to the user.",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "./src/assets/project-chatbot.png",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "https://mathewthemathbot.netlify.app/",
       "github": "https://github.com/Tejpex/project-chatbot"
@@ -51,7 +51,7 @@
     {
       "name": "Pizza Project",
       "description": "A site where you can order food with JavaScript.",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "./src/assets/project-pizza.png",
       "tags": ["HTML5", "JavaScript"],
       "netlify": "https://clever-cendol-83931b.netlify.app/",
       "github": "https://github.com/Tejpex/project-pizza"

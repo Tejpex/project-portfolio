@@ -1,3 +1,4 @@
+import arrow from "../assets/arrow.svg"
 import "./TitleCard.css"
 
 export const TitleCard = () => {
@@ -8,6 +9,7 @@ export const TitleCard = () => {
         <h1>Frontend Developer</h1>
         <p>Erika is a frontend developer with a background in teaching.</p>
       </div>
+      <img className="arrow" src={arrow} alt="down arrow" />
     </div>
   )
 }

@@ -13,12 +13,16 @@ export const Projects = ( {name, description,
         <h3 className="project-title">{name}</h3>
         <p>{description}</p>
         <p>{tags}</p>
-        <button>
-          <img src="..//src/assets/live-demo.svg" alt="Web icon" />
-          <a href={netlify}>Live demo</a>
-        </button>
-
-        <a href={github}>View the code</a>
+        <div className="button-box">
+          <a className="button view-live" href={netlify}>
+            <img src="..//src/assets/live-demo.svg" alt="Web icon" />
+            Live demo
+          </a>
+          <a className="button view-code" href={github}>
+            <img src="..//src/assets/github.svg" alt="Github icon" />
+            View the code
+          </a>
+        </div>
       </div>
     </div>
   );

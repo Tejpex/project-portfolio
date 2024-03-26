@@ -33,3 +33,9 @@ h1 {
     font-size: 80px;
     font-weight: 700;
 }
+
+.arrow {
+    width: 27px;
+    height: 68px;
+    flex-shrink: 0;
+}
