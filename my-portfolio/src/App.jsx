@@ -1,6 +1,6 @@
 import { TitleCard } from "./components/TitleCard"
 import { TechSection } from "./components/TechSection"
-import { Projects } from "./components/Projects"
+import { Projects } from "./components/Projects/Projects"
 import { Articles } from "./components/Articles"
 import './App.css'
 import data from "../projects.json"

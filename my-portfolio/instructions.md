@@ -58,7 +58,7 @@ To use the icons from the design, simply mark the icon you want to export and sa
 
 ## Requirements
 
-- Your portfolio should have components and props
+✅- Your portfolio should have components and props
 - Your portfolio should contain:
     - A picture of you.
     - A presentation of your tech skills.

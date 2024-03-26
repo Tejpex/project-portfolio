@@ -1,4 +1,6 @@
 import PropTypes from "prop-types"
+
+import { Tags } from "./Tags"
 import "./Projects.css"
 
 export const Projects = ( {name, description,
@@ -12,13 +14,13 @@ export const Projects = ( {name, description,
       <div className="project-info">
         <h3 className="project-title">{name}</h3>
         <p>{description}</p>
-        <p>{tags}</p>
+        <Tags tags={tags} />
         <div className="button-box">
-          <a className="button view-live" href={netlify}>
+          <a className="button view-live" href={netlify} target="_blank">
             <img src="..//src/assets/live-demo.svg" alt="Web icon" />
             Live demo
           </a>
-          <a className="button view-code" href={github}>
+          <a className="button view-code" href={github} target="_blank">
             <img src="..//src/assets/github.svg" alt="Github icon" />
             View the code
           </a>
