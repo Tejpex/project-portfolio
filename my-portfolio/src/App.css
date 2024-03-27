@@ -2,7 +2,7 @@
   margin: 0;
   box-sizing: border-box;
   --ivory: #FFFFEC;
-  --brown: #C6A969;
+  --brown: #ddc696;;
   --green: #6c9f14;
   --dark-green: #475841;
   --cerise: #D741A7;
@@ -16,4 +16,8 @@
   align-items: center;
   justify-content: flex-end;
   gap: 128px;
+}
+
+.articles-section {
+  background-color: #ddc696;
 }

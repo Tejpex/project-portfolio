@@ -1,3 +1,42 @@
-.articles-section {
-    background-color: #FFECEA;
+.article-card {
+    margin: 161px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.article-image {
+    width: 408px;
+    height: 340px;
+    object-fit: cover;
+    border-bottom: 20px solid #D741A7;
+    border-left: 20px solid #D741A7;
+    align-self: stretch;
+}
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.header-box h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.tag {
+    display: flex;
+    padding: 2px 6px;
+    align-items: flex-start;
+    background-color: #000;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
 }

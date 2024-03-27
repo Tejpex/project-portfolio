@@ -4,9 +4,12 @@ import { Projects } from "./components/Projects/Projects"
 import { Articles } from "./components/Articles"
 import './App.css'
 import projectData from "../projects.json"
+import articlesData from "../articles.json";
 
 function App() {
   const { projects } = projectData
+  const { articles } = articlesData
+
   const renderProjects = projects.map(
     ({ name, description, image, tags, netlify, github }) => (
       <Projects
@@ -21,6 +24,19 @@ function App() {
     )
   )
 
+  const renderArticles = articles.map(
+    ({ title, writtenAt, description, image, link }) => (
+      <Articles
+        key={link}
+        title={title}
+        writtenAt={writtenAt}
+        description={description}
+        image={image}
+        link={link}
+      />
+    )
+  )
+
   return (
     <div>
       <TitleCard />
@@ -30,10 +46,11 @@ function App() {
         {renderProjects}
       </div>
       <div className="articles-section">
-        <Articles />
+        <h1>My words</h1>
+        {renderArticles}
       </div>
     </div>
-  )
+  );
 }
 
 export default App
