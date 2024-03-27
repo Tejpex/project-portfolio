@@ -3,10 +3,10 @@ import { TechSection } from "./components/TechSection"
 import { Projects } from "./components/Projects/Projects"
 import { Articles } from "./components/Articles"
 import './App.css'
-import data from "../projects.json"
+import projectData from "../projects.json"
 
 function App() {
-  const { projects } = data
+  const { projects } = projectData
   const renderProjects = projects.map(
     ({ name, description, image, tags, netlify, github }) => (
       <Projects

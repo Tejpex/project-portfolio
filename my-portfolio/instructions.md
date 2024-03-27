@@ -62,7 +62,7 @@ To use the icons from the design, simply mark the icon you want to export and sa
 - Your portfolio should contain:
     - A picture of you.
     - A presentation of your tech skills.
-    - A presentation of your projects linking to GitHub and Netlify.
+    ✅- A presentation of your projects linking to GitHub and Netlify.
     - A presentation of some thoughts that you have around code.
     - A clear way to get in contact with you.
 - Your portfolio should follow the design as closely as possible

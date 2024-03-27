@@ -34,6 +34,22 @@ h1 {
     font-weight: 700;
 }
 
+.profile-box {
+    font-family: "Hind", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    align-self: stretch;
+}
+
+.profile-picture {
+    width: 164px;
+    height: 164px;
+    border-radius: 164px;
+}
+
 .arrow {
     width: 27px;
     height: 68px;
