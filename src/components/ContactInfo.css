@@ -1,5 +1,15 @@
+.contact-info-section {
+    background-color: var(--ivory);
+    padding: 128px 12.5%;
+}
+
 .contact-info-box {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 600;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
 }

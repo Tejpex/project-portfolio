@@ -26,6 +26,8 @@ body {
 .divider {
   display: inline-flex;
   align-items: flex-start;
+  position: relative;
+  top: 11px;
 }
 
 .divider img {
@@ -35,7 +37,7 @@ body {
 .articles-section {
   background-color: #ddc696;  
   width: 100%;
-  padding: 124px 234px;
+  padding: 124px 12.5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
