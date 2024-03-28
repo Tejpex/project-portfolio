@@ -1,0 +1,34 @@
+.skills-section {
+    background-color: #6c9f14;
+}
+
+.skills-container {
+    color: white;
+    font-family: "Hind", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.skills-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.skills-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.skills-heading {
+    color: white;
+}

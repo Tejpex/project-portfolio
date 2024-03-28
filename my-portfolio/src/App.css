@@ -23,6 +23,15 @@ body {
   gap: 128px;
 }
 
+.divider {
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.divider img {
+  margin: -2px;
+}
+
 .articles-section {
   background-color: #ddc696;  
   width: 100%;
