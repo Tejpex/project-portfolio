@@ -12,8 +12,8 @@
     width: 408px;
     height: 280px;
     object-fit: cover;
-    border-bottom: 20px solid #6c9f14;
-    border-left: 20px solid #6c9f14;
+    border-bottom: 20px solid var(--green);
+    border-left: 20px solid var(--green);
 }
 
 .project-info {
@@ -21,7 +21,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    flex: 1 0 0;
     align-self: stretch;
 }
 
@@ -29,12 +28,13 @@ h3 {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 600;
+    margin: 0;
 }
 
 .project-info p {
     font-family: "Hind", sans-serif;
     font-size: 18px;
-    font-weight: 400;
+    margin: 0;
 }
 
 .tags-box {
@@ -62,7 +62,6 @@ h3 {
     padding-right: 16px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     border-radius: 40px;
     background: #F5F5F5;
     gap: 7px;

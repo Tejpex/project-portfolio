@@ -4,10 +4,12 @@ import "./TitleCard.css"
 
 export const TitleCard = () => {
   return (
-    <div className="title-page">
+    <div className="title-section">
       <div className="title-card">
-        <h2 className="greeting">Hi, I´m Erika Wernbro</h2>
-        <h1>Frontend Developer</h1>
+        <div className="title-box">
+          <h2 className="greeting">Hi, I´m Erika Wernbro</h2>
+          <h1 className="title-heading">Frontend Developer</h1>
+        </div>
         <div className="profile-box">
           <img
             src={profilePicture}
@@ -15,11 +17,11 @@ export const TitleCard = () => {
             className="profile-picture"
           />
           <p>
-            Erika is a frontend developer with a background in teaching. She´s
+            I am a frontend developer with a background in teaching. I´m
             passionate about combining creativity and organizational skills, to
             make information more available and to contribute to the
-            ever-evolving landscape of web development. Her creativity and
-            aptitude for learning new skills makes her an asset to the field of
+            ever-evolving landscape of web development. My creativity and
+            aptitude for learning new skills makes me an asset to the field of
             technology!
           </p>
         </div>
@@ -28,5 +30,5 @@ export const TitleCard = () => {
         <img className="arrow" src={arrow} alt="down arrow" />
       </div>
     </div>
-  );
+  )
 }

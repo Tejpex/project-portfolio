@@ -1,45 +1,41 @@
-* {
-    --ivory: #FFFFEC;
-    --brown: #C6A969;
-    --green: #6c9f14;
-    --dark-green: #475841;
-    --cerise: #D741A7;
-}
-
-.title-page {
+.title-section {
     background-color: var(--ivory);
     margin: 0;
     display: flex;
-    padding: 132px 234px 63px 234px;
+    padding: 132px 12.5% 63px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    gap: 20%;
 }
 
 .title-card {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.title-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
 }
 
 .greeting {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 600;
-}
-
-h1 {
-    color: var(--green);
-    font-family: "Montserrat", sans-serif;
-    font-size: 80px;
-    font-weight: 700;
-    width: 1044px;
     margin: 0;
 }
 
+.title-heading {
+    color: var(--green);
+}
+
 .profile-box {
-    font-family: "Hind", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+    height: 164px;
     display: flex;
     align-items: center;
     gap: 22px;
@@ -63,13 +59,13 @@ h1 {
     animation: arrowJump 1s infinite;
 }
 
-@keyframes arrowJump {
-  from { top: 0;}
-  to {top: 34px;}
-}
-
 .arrow {
     width: 27px;
     height: 68px;
     flex-shrink: 0;
+}
+
+@keyframes arrowJump {
+  from { top: 0;}
+  to {top: 34px;}
 }

@@ -47,18 +47,18 @@ const App = () => {
       <TitleCard />
       <TechSection />
       <div className="projects-section">
-        <h1>Featured projects</h1>
+        <h1 className="project-heading">Featured projects</h1>
         {renderProjects}
       </div>
-      <DividerLine line={dividerLine}/>
+      <DividerLine line={dividerLine} />
       <div className="articles-section">
-        <h1 className="word-heading">My words</h1>
+        <h1 className="article-heading">My words</h1>
         {renderArticles}
       </div>
       <Skills />
       <ContactInfo />
     </div>
-  );
+  )
 }
 
 export default App

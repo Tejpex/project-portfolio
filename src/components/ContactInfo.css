@@ -1,6 +1,11 @@
 .contact-info-section {
     background-color: var(--ivory);
     padding: 128px 12.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 128px;
 }
 
 .contact-info-box {
