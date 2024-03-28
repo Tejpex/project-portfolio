@@ -11,7 +11,7 @@ import projectData from "../projects.json"
 import articlesData from "../articles.json"
 import dividerLine from "./assets/divider.svg"
 
-function App() {
+const App = () => {
   const { projects } = projectData
   const { articles } = articlesData
 
