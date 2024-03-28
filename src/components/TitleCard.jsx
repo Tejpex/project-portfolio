@@ -24,7 +24,9 @@ export const TitleCard = () => {
           </p>
         </div>
       </div>
-      <img className="arrow" src={arrow} alt="down arrow" />
+      <div className="arrow-box">
+        <img className="arrow" src={arrow} alt="down arrow" />
+      </div>
     </div>
   );
 }
