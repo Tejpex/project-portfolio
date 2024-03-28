@@ -2,10 +2,15 @@
   margin: 0;
   box-sizing: border-box;
   --ivory: #FFFFEC;
-  --brown: #ddc696;;
+  --brown: #ddc696;
+  --orange: #ffac11;
   --green: #6c9f14;
   --dark-green: #475841;
   --cerise: #D741A7;
+}
+
+body {
+  margin: 0;
 }
 
 .projects-section {
@@ -19,5 +24,16 @@
 }
 
 .articles-section {
-  background-color: #ddc696;
+  background-color: #ddc696;  
+  width: 100%;
+  padding: 124px 234px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 132px;
+}
+
+.word-heading {
+    color: #D741A7;
 }

@@ -1,5 +1,5 @@
 .article-card {
-    margin: 161px;
+    width: 739px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -23,11 +23,17 @@
     align-self: stretch;
 }
 
-.header-box h3 {
+.header-box h4 {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 600;
     margin: 0;
+}
+
+.article-card p {
+    font-family: "Hind", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .tag {
@@ -39,4 +45,12 @@
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 600;
+}
+
+#article-button {
+    color: black;
+}
+
+#article-button:hover {
+    background-color: #9cff80;
 }

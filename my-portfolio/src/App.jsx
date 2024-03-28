@@ -46,7 +46,7 @@ function App() {
         {renderProjects}
       </div>
       <div className="articles-section">
-        <h1>My words</h1>
+        <h1 className="word-heading">My words</h1>
         {renderArticles}
       </div>
     </div>

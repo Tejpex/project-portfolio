@@ -7,11 +7,11 @@ export const Articles = ({ title, writtenAt, description, image, link }) => {
       <img className="article-image" src={image} alt="" />
       <div className="header-box">
         <p className="tag">{writtenAt}</p>
-        <h3 className="article-title">{title}</h3>
+        <h4 className="article-title">{title}</h4>
       </div>
       <p>{description}</p>
-      <a className="button read-article" href={link} target="_blank">
-        <img src="..//src/assets/live-demo.svg" alt="Web icon" />
+      <a className="button" id="article-button" href={link} target="_blank">
+        <img src="..//src/assets/article.svg" alt="Web icon" />
         Read article
       </a>
     </div>
