@@ -8,10 +8,31 @@
     gap: 128px;
 }
 
+.contact-info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
 .contact-info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-info-box p {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 600;
+    margin: 0;
+}
+
+.social-media-box {
+    display: flex;
+    align-items: flex-end;
+    gap: 32px;
 }
 
 .icon {

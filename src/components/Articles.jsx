@@ -7,7 +7,7 @@ export const Articles = ({ title, writtenAt, description, image, link }) => {
       <img className="article-image" src={image} alt="" />
       <div className="header-box">
         <p className="tag">{writtenAt}</p>
-        <h4 className="article-title">{title}</h4>
+        <h2 className="article-title">{title}</h2>
       </div>
       <p>{description}</p>
       <a className="button" id="article-button" href={link} target="_blank">

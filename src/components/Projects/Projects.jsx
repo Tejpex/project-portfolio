@@ -12,7 +12,7 @@ export const Projects = ( {name, description,
     <div className="project-card">
       <img className="project-image" src={image} alt="" />
       <div className="project-info">
-        <h3 className="project-title">{name}</h3>
+        <h2 className="project-title">{name}</h2>
         <p>{description}</p>
         <Tags tags={tags} />
         <div className="button-box">

@@ -5,6 +5,7 @@ import { DividerLine } from "./components/DividerLine"
 import { Articles } from "./components/Articles"
 import { Skills } from "./components/Skills"
 import { ContactInfo } from "./components/ContactInfo"
+import { Footer } from "./components/Footer"
 
 import './App.css'
 import projectData from "../projects.json"
@@ -57,6 +58,7 @@ const App = () => {
       </div>
       <Skills />
       <ContactInfo />
+      <Footer />
     </div>
   )
 }

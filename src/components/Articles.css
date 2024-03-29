@@ -10,8 +10,8 @@
     width: 408px;
     height: 340px;
     object-fit: cover;
-    border-bottom: 20px solid #D741A7;
-    border-left: 20px solid #D741A7;
+    border-bottom: 20px solid var(--cerise);
+    border-left: 20px solid var(--cerise);
     align-self: stretch;
 }
 
@@ -23,17 +23,11 @@
     align-self: stretch;
 }
 
-.header-box h4 {
+.header-box h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 600;
     margin: 0;
-}
-
-.article-card p {
-    font-family: "Hind", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
 }
 
 .tag {
