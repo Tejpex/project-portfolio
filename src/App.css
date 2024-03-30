@@ -1,6 +1,4 @@
 #root {
-  box-sizing: border-box;
-  background-color: var(--ivory);
   --white: #FFFFFF;
   --ivory: #FFFFEC;
   --brown: #ddc696;
@@ -10,6 +8,8 @@
   --dark-green: #475841;
   --pink: #fbdff7;
   --cerise: #D741A7;
+  background-color: var(--ivory);
+  box-sizing: border-box;
 }
 
 body {
@@ -17,10 +17,12 @@ body {
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 80px;
-    font-weight: 700;
-    margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+  grid-column-start: 2;
+  grid-column-end: 11;
 }
 
 p {
@@ -29,20 +31,26 @@ p {
 }
 
 .section {
+  padding-right: 12.5%;
+  padding-left: 12.5%;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 
-.projects-section {
-  background-color: var(--ivory);
-  padding: 128px 12.5% 124px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+#projects-section {
+  padding-top: 128px;
+  padding-bottom: 124px;
   gap: 128px;
+}
+
+.card {
+  grid-column-start: 2;
+  grid-column-end: 11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 124px;
 }
 
 .divider {
@@ -72,9 +80,3 @@ p {
     color: var(--cerise);
 }
 
-.card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 124px;
-}

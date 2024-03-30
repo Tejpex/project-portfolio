@@ -1,12 +1,10 @@
 .intro {
-    padding: 132px 12.5% 63px;
-    gap: 20%;
+    padding-top: 132px;
+    padding-bottom: 63px;
 }
 
-.intro-card {
-    display: flex;
+#intro-card {
     flex-direction: column;
-    justify-content: flex-start;
     gap: 16px;
 }
 

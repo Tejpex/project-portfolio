@@ -1,8 +1,8 @@
-.project-card {
-    width: 70%;
+#project-card {
+    width: 75%;
     margin-right: auto;
     margin-left: auto;
-    display: flex;
+    
     align-items: flex-end;
     gap: 16px;
     align-self: stretch;

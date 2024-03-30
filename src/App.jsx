@@ -1,22 +1,22 @@
-import { Introduction } from "./components/Introduction"
-import { TechSection } from "./components/Tech"
-import { Projects } from "./components/Projects/Projects"
-import { DividerLine } from "./components/DividerLine"
-import { Articles } from "./components/Articles"
-import { Skills } from "./components/Skills"
-import { ContactInfo } from "./components/ContactInfo"
-import { Footer } from "./components/Footer"
+import { Introduction } from "./components/Introduction";
+import { TechSection } from "./components/Tech";
+import { Projects } from "./components/Projects";
+import { DividerLine } from "./components/DividerLine";
+import { Articles } from "./components/Articles";
+import { Skills } from "./components/Skills";
+import { ContactInfo } from "./components/ContactInfo";
+import { Footer } from "./components/Footer";
 
-import './App.css'
-import projectData from "../projects.json"
-import articlesData from "../articles.json"
-import dividerLine from "./assets/divider.svg"
-import githubIcon from "./assets/github.svg"
+import "./App.css";
+import projectData from "../projects.json";
+import articlesData from "../articles.json";
+import dividerLine from "./assets/divider.svg";
+import githubIcon from "./assets/github.svg";
 import webIcon from "./assets/live-demo.svg";
 
 const App = () => {
-  const { projects } = projectData
-  const { articles } = articlesData
+  const { projects } = projectData;
+  const { articles } = articlesData;
 
   const renderProjects = projects.map(
     ({ name, description, image, tags, netlify, github }) => (
@@ -32,7 +32,7 @@ const App = () => {
         webIcon={webIcon}
       />
     )
-  )
+  );
 
   const renderArticles = articles.map(
     ({ title, writtenAt, description, image, link }) => (
@@ -45,13 +45,13 @@ const App = () => {
         link={link}
       />
     )
-  )
+  );
 
   return (
     <div>
       <Introduction />
       <TechSection />
-      <div className="projects-section">
+      <div className="section" id="projects-section">
         <h1 className="project-heading">Featured projects</h1>
         {renderProjects}
       </div>
@@ -64,7 +64,7 @@ const App = () => {
       <ContactInfo />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

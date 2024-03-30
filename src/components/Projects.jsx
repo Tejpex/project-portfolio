@@ -3,15 +3,18 @@ import PropTypes from "prop-types"
 import { Tags } from "./Tags"
 import "./Projects.css"
 
-export const Projects = ( {name, description,
-            image,
-            tags,
-            netlify,
-            github,
-            githubIcon,
-            webIcon} ) => {
+export const Projects = ({
+  name,
+  description,
+  image,
+  tags,
+  netlify,
+  github,
+  githubIcon,
+  webIcon,
+}) => {
   return (
-    <div className="project-card">
+    <div className="card" id="project-card">
       <img className="project-image" src={image} alt="" />
       <div className="project-info">
         <h2 className="project-title">{name}</h2>
@@ -29,7 +32,7 @@ export const Projects = ( {name, description,
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 Projects.propTypes = {

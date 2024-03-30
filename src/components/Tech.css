@@ -4,8 +4,8 @@
 
 #tech-section {
     background-color: var(--green);
-    height: 980px;
-    padding: 124px 12.5%;
+    padding-top: 388px;
+    padding-bottom: 388px;
 }
 
 .tech p {

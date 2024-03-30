@@ -5,7 +5,7 @@ import "./Introduction.css"
 export const Introduction = () => {
   return (
     <div className="intro section">
-      <div className="intro-card">
+      <div className="card" id="intro-card">
         <div className="intro-box">
           <h2 className="greeting">Hi, I&apos;m Erika Wernbro</h2>
           <h1 className="intro-heading">Frontend Developer</h1>
@@ -26,7 +26,7 @@ export const Introduction = () => {
           </p>
         </div>
       </div>
-      <div className="arrow-box">
+      <div className="arrow-box card">
         <img className="arrow" src={arrow} alt="down arrow" />
       </div>
     </div>
