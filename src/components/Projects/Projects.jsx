@@ -7,7 +7,8 @@ export const Projects = ( {name, description,
             image,
             tags,
             netlify,
-            github}) => {
+            github,
+            githubIcon}) => {
   return (
     <div className="project-card">
       <img className="project-image" src={image} alt="" />
@@ -21,7 +22,7 @@ export const Projects = ( {name, description,
             Live demo
           </a>
           <a className="button view-code" href={github} target="_blank">
-            <img src="..//src/assets/github.svg" alt="Github icon" />
+            <img src={githubIcon} alt="Github icon" />
             View the code
           </a>
         </div>
@@ -37,4 +38,5 @@ Projects.propTypes = {
   tags: PropTypes.array,
   netlify: PropTypes.string,
   github: PropTypes.string,
+  githubIcon: PropTypes.string,
 }
