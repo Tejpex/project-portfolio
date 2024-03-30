@@ -12,6 +12,7 @@ import projectData from "../projects.json"
 import articlesData from "../articles.json"
 import dividerLine from "./assets/divider.svg"
 import githubIcon from "./assets/github.svg"
+import webIcon from "./assets/live-demo.svg";
 
 const App = () => {
   const { projects } = projectData
@@ -28,6 +29,7 @@ const App = () => {
         netlify={netlify}
         github={github}
         githubIcon={githubIcon}
+        webIcon={webIcon}
       />
     )
   )

@@ -8,7 +8,8 @@ export const Projects = ( {name, description,
             tags,
             netlify,
             github,
-            githubIcon}) => {
+            githubIcon,
+            webIcon} ) => {
   return (
     <div className="project-card">
       <img className="project-image" src={image} alt="" />
@@ -18,7 +19,7 @@ export const Projects = ( {name, description,
         <Tags tags={tags} />
         <div className="button-box">
           <a className="button view-live" href={netlify} target="_blank">
-            <img src="..//src/assets/live-demo.svg" alt="Web icon" />
+            <img src={webIcon} alt="Web icon" />
             Live demo
           </a>
           <a className="button view-code" href={github} target="_blank">
@@ -39,4 +40,5 @@ Projects.propTypes = {
   netlify: PropTypes.string,
   github: PropTypes.string,
   githubIcon: PropTypes.string,
+  webIcon: PropTypes.string,
 }
