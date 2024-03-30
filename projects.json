@@ -3,7 +3,7 @@
     {
       "name": "Happy Thoughts",
       "description": "A social media site that uses an external API, to which you can send and like Happy thoughts.",
-      "image": "./assets/project-happy.png",
+      "image": "./src/assets/project-happy.png",
       "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIs"],
       "netlify": "https://boisterous-brioche-b12b23.netlify.app/",
       "github": "https://github.com/Tejpex/project-happy-thoughts-vite"
@@ -11,7 +11,7 @@
     {
       "name": "Ice Cream Survey",
       "description": "This is a site conducting a survey of the users favorite ice cream.",
-      "image": "./assets/project-survey.png",
+      "image": "./src/assets/project-survey.png",
       "tags": ["HTML5", "CSS3", "JavaScript", "React"],
       "netlify": "https://ice-cream-survey.netlify.app/",
       "github": "https://github.com/Tejpex/project-survey-vite"

@@ -28,10 +28,16 @@ p {
   font-size: 18px;
 }
 
+.section {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .projects-section {
   background-color: var(--ivory);
-  width: 100%;
-  padding: 128px 0 124px;
+  padding: 128px 12.5% 124px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,4 +70,11 @@ p {
 
 .article-heading {
     color: var(--cerise);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 124px;
 }

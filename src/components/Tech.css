@@ -1,0 +1,15 @@
+.tech {
+    color: var(--ivory);
+}
+
+#tech-section {
+    background-color: var(--green);
+    height: 980px;
+    padding: 124px 12.5%;
+}
+
+.tech p {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+}

@@ -1,5 +1,5 @@
-import { TitleCard } from "./components/TitleCard"
-import { TechSection } from "./components/TechSection"
+import { Introduction } from "./components/Introduction"
+import { TechSection } from "./components/Tech"
 import { Projects } from "./components/Projects/Projects"
 import { DividerLine } from "./components/DividerLine"
 import { Articles } from "./components/Articles"
@@ -49,7 +49,7 @@ const App = () => {
 
   return (
     <div>
-      <TitleCard />
+      <Introduction />
       <TechSection />
       <div className="projects-section">
         <h1 className="project-heading">Featured projects</h1>

@@ -1,14 +1,14 @@
 import arrow from "../assets/arrow.svg"
 import profilePicture from "../assets/CV-bild-vanster.jpg"
-import "./TitleCard.css"
+import "./Introduction.css"
 
-export const TitleCard = () => {
+export const Introduction = () => {
   return (
-    <div className="title-section">
-      <div className="title-card">
-        <div className="title-box">
+    <div className="intro section">
+      <div className="intro-card">
+        <div className="intro-box">
           <h2 className="greeting">Hi, I&apos;m Erika Wernbro</h2>
-          <h1 className="title-heading">Frontend Developer</h1>
+          <h1 className="intro-heading">Frontend Developer</h1>
         </div>
         <div className="profile-box">
           <img
@@ -30,5 +30,5 @@ export const TitleCard = () => {
         <img className="arrow" src={arrow} alt="down arrow" />
       </div>
     </div>
-  );
+  )
 }
