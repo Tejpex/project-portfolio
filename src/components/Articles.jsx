@@ -3,7 +3,7 @@ import "./Articles.css"
 
 export const Articles = ({ title, writtenAt, description, image, link }) => {
   return (
-    <div className="article-card">
+    <div className="card" id="article-card">
       <img className="article-image" src={image} alt="" />
       <div className="header-box">
         <p className="tag">{writtenAt}</p>

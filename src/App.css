@@ -21,13 +21,21 @@ h1 {
   font-size: 80px;
   font-weight: 700;
   margin: 0;
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 11;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
 }
 
 p {
   font-family: "Hind", sans-serif;
   font-size: 18px;
+  margin: 0;
 }
 
 .section {
@@ -35,46 +43,37 @@ p {
   padding-left: 12.5%;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(10, 1fr);
 }
 
 #projects-section {
   padding-top: 128px;
   padding-bottom: 124px;
-  gap: 128px;
+}
+
+#articles-section {
+  background-color: var(--pink);  
+  padding: 124px;
 }
 
 .card {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 11;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 124px;
+  /*gap: 124px;*/
 }
 
 .divider {
-  height: 3px;
-  display: inline-flex;
-  align-items: flex-start;
+  background: url(./assets/divider.svg);
+  background-repeat: repeat-x;
+  height: 11px;
   position: relative;
-  top: 11px;
+  top: 6px;
 }
 
-.divider img {
-  margin: -2px;
-  object-fit: cover;
-}
 
-.articles-section {
-  background-color: var(--pink);  
-  padding: 124px 12.5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 132px;
-}
 
 .article-heading {
     color: var(--cerise);

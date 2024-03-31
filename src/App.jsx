@@ -1,7 +1,6 @@
 import { Introduction } from "./components/Introduction";
 import { TechSection } from "./components/Tech";
 import { Projects } from "./components/Projects";
-import { DividerLine } from "./components/DividerLine";
 import { Articles } from "./components/Articles";
 import { Skills } from "./components/Skills";
 import { ContactInfo } from "./components/ContactInfo";
@@ -10,7 +9,6 @@ import { Footer } from "./components/Footer";
 import "./App.css";
 import projectData from "../projects.json";
 import articlesData from "../articles.json";
-import dividerLine from "./assets/divider.svg";
 import githubIcon from "./assets/github.svg";
 import webIcon from "./assets/live-demo.svg";
 
@@ -55,8 +53,8 @@ const App = () => {
         <h1 className="project-heading">Featured projects</h1>
         {renderProjects}
       </div>
-      <DividerLine line={dividerLine} />
-      <div className="articles-section">
+      <div className="divider"></div>
+      <div className="section" id="articles-section">
         <h1 className="article-heading">My words</h1>
         {renderArticles}
       </div>

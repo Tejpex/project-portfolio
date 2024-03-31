@@ -6,8 +6,6 @@ export const Footer = () => {
       <div className="footer-text">
         <p>
           Erika Wernbro · Frontend Developer · Erika Wernbro · Frontend
-          Developer · Erika Wernbro · Frontend Developer · Erika Wernbro ·
-          Frontend Developer
         </p>
       </div>
     </div>

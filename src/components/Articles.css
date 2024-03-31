@@ -1,9 +1,10 @@
-.article-card {
-    width: 739px;
+#article-card {
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .article-image {

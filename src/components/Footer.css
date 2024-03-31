@@ -4,13 +4,12 @@
   height: 114px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  overflow: hidden;
 }
 
 .footer-text {
-    overflow: hidden;
-    position: relative;
-    animation: textRoll 7s infinite;
+  white-space: nowrap;
+  animation: textRoll 8s linear infinite;
 }
 
 .footer-text p{
@@ -23,6 +22,6 @@
 
 
 @keyframes textRoll {
-  from { left: 500px;}
-  to {left: -1000px;}
+  from { transform: translate(0);}
+  to {transform: translate(-50%);}
 }

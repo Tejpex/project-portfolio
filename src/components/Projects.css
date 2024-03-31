@@ -1,19 +1,16 @@
 #project-card {
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-    
-    align-items: flex-end;
-    gap: 16px;
+    justify-content: flex-start;
     align-self: stretch;
+    flex-wrap: wrap;
 }
 
 .project-image {
-    width: 408px;
-    height: 280px;
+    max-width: 42.5%;
+    max-height: 280px;
     object-fit: cover;
     border-bottom: 20px solid var(--green);
     border-left: 20px solid var(--green);
+    margin-right: 16px;
 }
 
 .project-info {
@@ -22,19 +19,7 @@
     justify-content: space-between;
     align-items: flex-start;
     align-self: stretch;
-}
-
-h2 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    margin: 0;
-}
-
-.project-info p {
-    font-family: "Hind", sans-serif;
-    font-size: 18px;
-    margin: 0;
+    text-wrap: wrap;
 }
 
 .tags-box {
@@ -55,7 +40,7 @@ h2 {
 .button-box {
     display: flex;
     align-items: flex-start;
-    gap: 32px;
+    gap: 7.5%;
 }
 
 .button {
