@@ -1,9 +1,10 @@
 #intro-section {
-    padding-top: 132px;
-    padding-bottom: 62px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    row-gap: 32px;
 }
 
-.intro-box {
+#greeting-box {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -11,42 +12,37 @@
     align-self: stretch;
 }
 
-#top-intro-picture {
-    display: none;
-}
-
 #intro-heading {
     color: var(--green);
     margin-bottom: 32px;
+    text-align: left;
 }
 
-.profile-box {
-    display: flex;
-    align-items: center;
-    align-self: stretch;
+#top-intro-picture {
+    display: none;
 }
 
 #intro-picture {
     margin-right: 22px;
 }
 
-
+.profile-box {
+    display: flex;
+    align-items: center;
+}
 
 .arrow-box {
     height: 68px;
-    padding: 0 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 0;
     animation: arrowJump 1s infinite;
 }
 
 .arrow {
     width: 27px;
     height: 68px;
-    flex-shrink: 0;
 }
 
 @keyframes arrowJump {
@@ -55,11 +51,16 @@
 }
 
 @media (max-width:667px) {
-    #intro-section {
-        padding-top: 64px;
-        padding-bottom: 64px;
+    #top-intro-picture {
+        display: flex;
+        margin: 0 0 32px;
+        align-self: center;
     }
-
+    
+    #intro-picture {
+        display: none;
+    }
+    
     #greeting {
         font-size: 18px;
     }
@@ -67,20 +68,24 @@
     #intro-heading {
         font-size: 32px;
     }
+}
 
-    #top-intro-picture {
-        display: flex;
-        margin: 0 0 32px;
-        align-self: center;
-    }
-
-    #intro-picture {
-        display: none;
-    }
+@media (min-width:668px) and (max-width:1024px) {
+    #intro-section {
+        padding-top: 128px;
+        padding-bottom: 20px;
+        row-gap: 118px;
+    }    
 }
 
 @media (min-width:1025px) {
+    #intro-section {
+        padding-top: 332px;
+        padding-bottom: 63px;
+        row-gap: 200px;
+    }
+
     #intro-heading {
-    margin-bottom: 16px;
+        margin-bottom: 16px;
     }
 }
