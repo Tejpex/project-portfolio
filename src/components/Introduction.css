@@ -1,37 +1,33 @@
-.intro {
+#intro-section {
     padding-top: 132px;
-    padding-bottom: 63px;
-}
-
-#intro-card {
-    flex-direction: column;
-    gap: 16px;
+    padding-bottom: 62px;
 }
 
 .intro-box {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-self: stretch;
 }
 
-.greeting {
-    font-family: "Montserrat", sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    margin: 0;
+#top-intro-picture {
+    display: none;
 }
 
-.intro-heading {
+#intro-heading {
     color: var(--green);
+    font-size: 32px;
 }
 
 .profile-box {
-    height: 164px;
     display: flex;
     align-items: center;
-    gap: 22px;
     align-self: stretch;
+}
+
+#intro-picture {
+    margin-right: 22px;
 }
 
 .profile-picture {
@@ -43,7 +39,7 @@
 
 .arrow-box {
     height: 68px;
-    padding: 0 16px 64px;
+    padding: 0 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +55,27 @@
 }
 
 @keyframes arrowJump {
-  from { top: 0;}
-  to {top: 34px;}
+    from { top: 0;}
+    to {top: 34px;}
+}
+
+@media (max-width:667px) {
+    #intro-section {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    #greeting {
+        font-size: 18px;
+    }
+
+    #top-intro-picture {
+        display: flex;
+        margin: 0 0 32px;
+        align-self: center;
+    }
+
+    #intro-picture {
+        display: none;
+    }
 }
