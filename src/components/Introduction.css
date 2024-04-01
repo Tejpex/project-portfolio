@@ -30,12 +30,7 @@
     margin-right: 22px;
 }
 
-.profile-picture {
-    width: 164px;
-    height: 164px;
-    border-radius: 164px;
-    object-fit: cover;
-}
+
 
 .arrow-box {
     height: 68px;

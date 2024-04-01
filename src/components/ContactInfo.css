@@ -1,14 +1,9 @@
-.contact-info-section {
-    background-color: var(--ivory);
-    padding: 128px 12.5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 128px;
+#contact-info-section {
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 
-.contact-info-card {
+#contact-info-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,13 +15,6 @@
     flex-direction: column;
     align-items: center;
     gap: 8px;
-}
-
-.contact-info-box p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    margin: 0;
 }
 
 .social-media-box {

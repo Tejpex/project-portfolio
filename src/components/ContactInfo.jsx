@@ -9,18 +9,18 @@ import blueSky from "../assets/bluesky.png"
 
 export const ContactInfo = () => {
   return (
-    <div className="contact-info-section">
+    <div className="section" id="contact-info-section">
       <h1>Let&apos;s talk</h1>
-      <div className="contact-info-card">
+      <div className="card" id="contact-info-card">
         <img
           src={profilePicture}
           alt="Picture of Erika"
           className="profile-picture"
         />
         <div className="contact-info-box">
-          <p>Erika Wernbro</p>
-          <p>+46(0)76 242 42 42</p>
-          <p>erikaellerekki@gmail.com</p>
+          <h2>Erika Wernbro</h2>
+          <h2>+46(0)76 242 42 42</h2>
+          <h2>erikaellerekki@gmail.com</h2>
         </div>
         <div className="social-media-box">
           <a href="https://www.linkedin.com/in/erika-wernbro/" target="_blank">
