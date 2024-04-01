@@ -1,8 +1,5 @@
 #project-card {
     justify-content: flex-start;
-    align-self: stretch;
-    flex-wrap: wrap;
-    margin-top: 128px;
 }
 
 .project-image {

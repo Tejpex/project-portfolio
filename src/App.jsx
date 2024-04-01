@@ -50,7 +50,7 @@ const App = () => {
       <Introduction />
       <TechSection />
       <div className="section" id="projects-section">
-        <h1 className="project-heading">Featured projects</h1>
+        <h1 id="projects-heading">Featured projects</h1>
         {renderProjects}
       </div>
       <div className="divider"></div>

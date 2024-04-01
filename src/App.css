@@ -18,9 +18,9 @@ body {
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 80px;
+  font-size: 56px;
   font-weight: 700;
-  margin: 0 0 16px;
+  margin: 0 0 64px;
   grid-column-start: 1;
   grid-column-end: 11;
 }
@@ -49,6 +49,11 @@ p {
 #projects-section {
   padding-top: 128px;
   padding-bottom: 124px;
+  row-gap: 64px;
+}
+
+#projects-heading {
+  margin: 0;
 }
 
 #articles-section {
@@ -73,8 +78,6 @@ p {
   top: 6px;
 }
 
-
-
 .article-heading {
     color: var(--cerise);
 }
@@ -92,7 +95,8 @@ p {
 
 @media (min-width:1025px) {
   h1 {
-    margin-bottom: 32px;
+    font-size: 80px;
+    margin: 0 0 128px;
   }
 
   h2 {
@@ -109,4 +113,8 @@ p {
   grid-column-start: 1;
   grid-column-end: 11;
   }
+
+  #projects-section {
+  row-gap: 128px;
+}
 }
