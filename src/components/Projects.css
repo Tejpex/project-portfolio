@@ -2,6 +2,7 @@
     justify-content: flex-start;
     align-self: stretch;
     flex-wrap: wrap;
+    margin-top: 128px;
 }
 
 .project-image {
@@ -14,6 +15,7 @@
 }
 
 .project-info {
+    width: 42.5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

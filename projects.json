@@ -3,7 +3,7 @@
     {
       "name": "Happy Thoughts",
       "description": "A social media site that uses an external API, to which you can send and like Happy thoughts.",
-      "image": "./src/assets/project-happy.png",
+      "image": "/project-happy.png",
       "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIs"],
       "netlify": "https://boisterous-brioche-b12b23.netlify.app/",
       "github": "https://github.com/Tejpex/project-happy-thoughts-vite"
@@ -11,7 +11,7 @@
     {
       "name": "Ice Cream Survey",
       "description": "This is a site conducting a survey of the users favorite ice cream.",
-      "image": "./src/assets/project-survey.png",
+      "image": "/project-survey.png",
       "tags": ["HTML5", "CSS3", "JavaScript", "React"],
       "netlify": "https://ice-cream-survey.netlify.app/",
       "github": "https://github.com/Tejpex/project-survey-vite"
@@ -19,7 +19,7 @@
     {
       "name": "Music Releases",
       "description": "This is a site that displays some of the latest albums released on Spotify.",
-      "image": "./src/assets/project-music.png",
+      "image": "/project-music.png",
       "tags": ["HTML5", "CSS3", "JavaScript", "React"],
       "netlify": "https://statuesque-fudge-2f1709.netlify.app/",
       "github": "https://github.com/Tejpex/project-music-releases-vite"
@@ -27,7 +27,7 @@
     {
       "name": "Weather app",
       "description": "A site to display the weather of e few cities in Sweden.",
-      "image": "./src/assets/project-weather.png",
+      "image": "/project-weather.png",
       "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
       "netlify": "https://serene-fairy-e9079b.netlify.app/",
       "github": "https://github.com/Tejpex/project-weather-app"
@@ -35,7 +35,7 @@
     {
       "name": "Plants Library",
       "description": "A library of plants you can plant in your garden. There is a function to filter the plants by type or when it's time to sow. You can also sort the plants alphabetically.",
-      "image": "./src/assets/project-library.png",
+      "image": "/project-library.png",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "https://moonlit-jelly-c24410.netlify.app/",
       "github": "https://github.com/Tejpex/project-library"
@@ -43,7 +43,7 @@
     {
       "name": "Mathbot",
       "description": "A chatbot that delivered endless math problems to the user.",
-      "image": "./src/assets/project-chatbot.png",
+      "image": "/project-chatbot.png",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "https://mathewthemathbot.netlify.app/",
       "github": "https://github.com/Tejpex/project-chatbot"
@@ -51,7 +51,7 @@
     {
       "name": "Pizza Project",
       "description": "A site where you can order food with JavaScript.",
-      "image": "./src/assets/project-pizza.png",
+      "image": "/project-pizza.png",
       "tags": ["HTML5", "JavaScript"],
       "netlify": "https://clever-cendol-83931b.netlify.app/",
       "github": "https://github.com/Tejpex/project-pizza"
@@ -59,7 +59,7 @@
     {
       "name": "Business Site",
       "description": "A business-site for Waffle House.",
-      "image": "./src/assets/project-business.png",
+      "image": "/project-business.png",
       "tags": ["HTML5", "CSS3"],
       "netlify": "https://star-team-1-business-site.netlify.app/",
       "github": "https://github.com/Tejpex/project-business-site"
@@ -67,7 +67,7 @@
     {
       "name": "News Site",
       "description": "This project is a news site, for news about vegetarian food.",
-      "image": "./src/assets/project-news.png",
+      "image": "/project-news.png",
       "tags": ["HTML5", "CSS3"],
       "netlify": "https://warm-panda-028459.netlify.app/",
       "github": "https://github.com/Tejpex/project-news-site"
