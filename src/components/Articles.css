@@ -8,7 +8,7 @@
 }
 
 .article-image {
-    width: 408px;
+    max-width: 408px;
     height: 340px;
     object-fit: cover;
     border-bottom: 20px solid var(--cerise);

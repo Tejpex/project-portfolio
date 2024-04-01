@@ -1,5 +1,6 @@
 #project-card {
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project-image {
@@ -15,9 +16,7 @@
     width: 42.5%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-self: stretch;
+    align-items: center;
     text-wrap: wrap;
 }
 
@@ -70,4 +69,21 @@ a {
 
 .view-code:hover {
     background-color: #D741A7;
+}
+
+@media (min-width:668px) {
+    #project-card {
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .project-info {
+        width: 42.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        text-wrap: wrap;
+    }
 }
