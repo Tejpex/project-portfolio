@@ -1,5 +1,5 @@
 import "./ContactInfo.css"
-import profilePicture from "../assets/CV-bild-vanster.jpg"
+import profilePicture from "../assets/CV-bild.jpg"
 import linkedIn from "../assets/linkedin.svg"
 import githubSmall from "../assets/github-small.svg"
 import stackOverflow from "../assets/stackoverflow.svg"

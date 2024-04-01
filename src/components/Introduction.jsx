@@ -1,5 +1,5 @@
 import arrow from "../assets/arrow.svg"
-import profilePicture from "../assets/CV-bild-vanster.jpg"
+import profilePicture from "../assets/CV-bild.jpg"
 import "./Introduction.css"
 
 export const Introduction = () => {
