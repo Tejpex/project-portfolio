@@ -3,9 +3,11 @@ import "./Skills.css"
 export const Skills = () => {
   return (
     <div className="section" id="skills-section">
-      <h1 className="ivory-text">Skills</h1>
-      <div className="card" id="skills-card">
-        <div className="skills-box">
+      <h1 className="ivory-text" id="skills-heading">
+        Skills
+      </h1>
+      <div className="card ivory-text" id="skills-card-one">
+        <div id="skills-box">
           <h2 className="cerise">Code</h2>
           <ul>
             <li>HTML5</li>
@@ -17,7 +19,7 @@ export const Skills = () => {
             <li>GitHub</li>
           </ul>
         </div>
-        <div className="skills-box">
+        <div id="skills-box">
           <h2 className="green">Toolbox</h2>
           <ul>
             <li>VSCode</li>
@@ -28,7 +30,9 @@ export const Skills = () => {
             <li>Slack</li>
           </ul>
         </div>
-        <div className="skills-box">
+      </div>
+      <div className="card ivory-text" id="skills-card-two">
+        <div id="skills-box">
           <h2 className="orange">Upcoming</h2>
           <ul>
             <li>Node.js</li>
@@ -36,7 +40,7 @@ export const Skills = () => {
             <li>Python</li>
           </ul>
         </div>
-        <div className="skills-box">
+        <div id="skills-box">
           <h2 className="blue">More</h2>
           <ul>
             <li>Teaching</li>
@@ -46,5 +50,5 @@ export const Skills = () => {
         </div>
       </div>
     </div>
-  );
+  )
 }

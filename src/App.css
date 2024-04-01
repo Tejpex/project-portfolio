@@ -1,7 +1,7 @@
 #root {
   --white: #FFFFFF;
   --ivory: #FFFFEC;
-  --green: #598e04;
+  --green: #4e7d03;
   --dark-green: #2a541b;
   --pink: #fbdff7;
   --cerise: #D741A7;
@@ -91,22 +91,20 @@ p {
 
 @media (min-width:668px) and (max-width:1024px) {
   h1 {
-    grid-column-start: 1;
     grid-column-end: 9;
   }
 
   .section {
-  grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
   }
 
   .card {
-  grid-column-start: 1;
-  grid-column-end: 9;
+    grid-column-end: 9;
   }
 
   #projects-heading {
-  margin: 0;
-  text-align: left;
+    margin: 0;
+    text-align: left;
   }
 }
 
@@ -114,7 +112,6 @@ p {
   h1 {
     font-size: 80px;
     margin: 0 0 128px;
-    grid-column-start: 1;
     grid-column-end: 11;
   }
 
@@ -123,14 +120,13 @@ p {
   }
 
   .section {
-  padding-right: 12.5%;
-  padding-left: 12.5%;
-  grid-template-columns: repeat(10, 1fr);
+    padding-right: 12.5%;
+    padding-left: 12.5%;
+    grid-template-columns: repeat(10, 1fr);
   }
 
   .card {
-  grid-column-start: 1;
-  grid-column-end: 11;
+    grid-column-end: 11;
   }
 
   #projects-section {
