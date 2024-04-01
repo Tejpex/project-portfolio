@@ -1,11 +1,11 @@
 #root {
   --white: #FFFFFF;
   --ivory: #FFFFEC;
-  --green: #5b8710;
-  --dark-green: #475841;
+  --green: #598e04;
+  --dark-green: #2a541b;
   --pink: #fbdff7;
   --cerise: #D741A7;
-  --orange: #ffac11;
+  --orange: #c46f00;
   --blue: #1572b1;
   background-color: var(--ivory);
   box-sizing: border-box;

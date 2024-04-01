@@ -4,7 +4,7 @@ export const Skills = () => {
   return (
     <div className="section" id="skills-section">
       <h1 className="ivory-text">Skills</h1>
-      <div className="card ivory-text" id="skills-card">
+      <div className="card" id="skills-card">
         <div className="skills-box">
           <h2 className="cerise">Code</h2>
           <ul>
