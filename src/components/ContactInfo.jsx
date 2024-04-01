@@ -3,8 +3,8 @@ import profilePicture from "../assets/CV-bild.jpg"
 import linkedIn from "../assets/linkedin.svg"
 import githubSmall from "../assets/github-small.svg"
 import stackOverflow from "../assets/stackoverflow.svg"
-import instagram from "../assets/instagram.svg"
 import blueSky from "../assets/bluesky.png"
+import instagram from "../assets/instagram.svg"
 
 
 export const ContactInfo = () => {

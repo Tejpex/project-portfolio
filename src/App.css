@@ -87,10 +87,9 @@ p {
 }
 
 .profile-picture {
-    width: 164px;
-    height: 164px;
-    border-radius: 164px;
-    object-fit: cover;
+    max-width: 164px;
+    max-height: 164px;
+    border-radius: 50%;
 }
 
 @media (min-width:668px) and (max-width:1024px) {
