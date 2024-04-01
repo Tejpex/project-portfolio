@@ -1,8 +1,3 @@
-#contact-info-section {
-    padding-top: 128px;
-    padding-bottom: 128px;
-}
-
 #contact-info-card {
     flex-direction: column;
     gap: 64px;
