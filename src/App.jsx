@@ -1,20 +1,21 @@
-import { Introduction } from "./components/Introduction";
-import { Tech } from "./components/Tech";
-import { Projects } from "./components/Projects";
-import { Articles } from "./components/Articles";
-import { Skills } from "./components/Skills";
-import { ContactInfo } from "./components/ContactInfo";
-import { Footer } from "./components/Footer";
+import { Introduction } from "./components/Introduction"
+import { Tech } from "./components/Tech"
+import { Projects } from "./components/Projects"
+import { Articles } from "./components/Articles"
+import { Skills } from "./components/Skills"
+import { ContactInfo } from "./components/ContactInfo"
+import { Footer } from "./components/Footer"
 
-import "./App.css";
-import projectData from "../projects.json";
-import articlesData from "../articles.json";
-import githubIcon from "./assets/github.svg";
-import webIcon from "./assets/live-demo.svg";
+import "./App.css"
+import projectData from "../projects.json"
+import articlesData from "../articles.json"
+import githubIcon from "./assets/github.svg"
+import webIcon from "./assets/live-demo.svg"
+import articleIcon from "./assets/article.svg"
 
 const App = () => {
-  const { projects } = projectData;
-  const { articles } = articlesData;
+  const { projects } = projectData
+  const { articles } = articlesData
 
   const renderProjects = projects.map(
     ({ name, description, image, tags, netlify, github }) => (
@@ -30,7 +31,7 @@ const App = () => {
         webIcon={webIcon}
       />
     )
-  );
+  )
 
   const renderArticles = articles.map(
     ({ title, writtenAt, description, image, link }) => (
@@ -41,9 +42,10 @@ const App = () => {
         description={description}
         image={image}
         link={link}
+        articleIcon={articleIcon}
       />
     )
-  );
+  )
 
   return (
     <div>
@@ -62,7 +64,7 @@ const App = () => {
       <ContactInfo />
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
