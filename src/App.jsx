@@ -1,5 +1,5 @@
 import { Introduction } from "./components/Introduction";
-import { TechSection } from "./components/Tech";
+import { Tech } from "./components/Tech";
 import { Projects } from "./components/Projects";
 import { Articles } from "./components/Articles";
 import { Skills } from "./components/Skills";
@@ -48,7 +48,7 @@ const App = () => {
   return (
     <div>
       <Introduction />
-      <TechSection />
+      <Tech />
       <div className="section" id="projects-section">
         <h1 id="projects-heading">Featured projects</h1>
         {renderProjects}

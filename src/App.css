@@ -21,8 +21,6 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   margin: 0 0 64px;
-  grid-column-start: 1;
-  grid-column-end: 11;
 }
 
 h2 {
@@ -36,6 +34,10 @@ p {
   font-family: "Hind", sans-serif;
   font-size: 18px;
   margin: 0;
+}
+
+.ivory-text {
+  color: var(--ivory);
 }
 
 .section {
@@ -54,6 +56,8 @@ p {
 
 #projects-heading {
   margin: 0;
+  grid-column-start: 1;
+  grid-column-end: 11;
 }
 
 #articles-section {
@@ -97,6 +101,8 @@ p {
   h1 {
     font-size: 80px;
     margin: 0 0 128px;
+    grid-column-start: 1;
+    grid-column-end: 11;
   }
 
   h2 {

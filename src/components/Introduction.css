@@ -17,7 +17,6 @@
 
 #intro-heading {
     color: var(--green);
-    font-size: 32px;
     margin-bottom: 32px;
 }
 
@@ -68,6 +67,10 @@
 
     #greeting {
         font-size: 18px;
+    }
+
+    #intro-heading {
+        font-size: 32px;
     }
 
     #top-intro-picture {

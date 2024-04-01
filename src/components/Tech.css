@@ -1,16 +1,27 @@
-.tech {
-    color: var(--ivory);
-}
-
 #tech-section {
     background-color: var(--green);
     padding-top: 388px;
     padding-bottom: 388px;
 }
 
-.tech p {
-    font-size: 32px;
+#tech-text {
+    font-size: 24px;
     font-weight: 600;
-    text-align: left;
-    margin-left: 9.6%;
+    text-align: center;
+}
+
+@media (min-width:1025px) {
+    #tech-card {
+        flex-wrap: nowrap;
+    }
+
+    #tech-heading {
+        margin: 0;
+    }
+    
+    #tech-text {
+        font-size: 32px;
+        text-align: left;
+        margin-left: 9.6%;
+    }
 }

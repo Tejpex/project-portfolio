@@ -1,11 +1,11 @@
 import "./Tech.css"
 
-export const TechSection = () => {
+export const Tech = () => {
   return (
-    <div className="tech section" id="tech-section">
-      <div className="tech card" id="tech-card">
-        <h1 className="tech">Tech</h1>
-        <p>
+    <div className="section" id="tech-section">
+      <div className="card" id="tech-card">
+        <h1 className="ivory-text" id="tech-heading">Tech</h1>
+        <p className="ivory-text" id="tech-text">
           HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Node.js,
           Mongo DB, Web Accessibility, APIs, mob-programming, pair-programming,
           GitHub.
