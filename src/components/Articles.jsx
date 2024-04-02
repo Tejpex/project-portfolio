@@ -1,7 +1,9 @@
 import PropTypes from "prop-types"
-import "./Articles.css"
 
-export const Articles = ({ title, writtenAt, description, image, altText, link, articleIcon, }) => {
+import "./Articles.css"
+import { ArticleIcon } from "./Icons/ArticleIcon"
+
+export const Articles = ({ title, writtenAt, description, image, altText, link }) => {
   return (
     <div className="card" id="article-card">
       <img className="article-image" src={image} alt={altText} />
@@ -11,7 +13,7 @@ export const Articles = ({ title, writtenAt, description, image, altText, link, 
       </div>
       <p>{description}</p>
       <a className="button" id="article-button" href={link} target="_blank">
-        <img src={articleIcon} alt="Text icon" />
+        <ArticleIcon />
         Read article
       </a>
     </div>
@@ -25,5 +27,4 @@ Articles.propTypes = {
   image: PropTypes.string,
   altText: PropTypes.string,
   link: PropTypes.string,
-  articleIcon: PropTypes.string,
 }

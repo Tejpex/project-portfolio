@@ -21,13 +21,8 @@
     gap: 8px;
 }
 
-#article-button {
-    color: var(--dark-gray);
-}
-
 #article-button:hover {
     background-color: var(--blue);
-    color: var(--white);
 }
 
 @media (min-width:668px) {

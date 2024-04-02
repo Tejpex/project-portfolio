@@ -11,7 +11,6 @@ import projectData from "../projects.json"
 import articlesData from "../articles.json"
 import githubIcon from "./assets/github.svg"
 import webIcon from "./assets/live-demo.svg"
-import articleIcon from "./assets/article.svg"
 
 const App = () => {
   const { projects } = projectData
@@ -43,7 +42,6 @@ const App = () => {
         image={image}
         altText={altText}
         link={link}
-        articleIcon={articleIcon}
       />
     )
   )
