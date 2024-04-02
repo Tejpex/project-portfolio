@@ -2,6 +2,7 @@
 #root {
   --white: #FFFFFF;
   --ivory: #FFFFEC;
+  --light-gray: #F5F5F5;
   --green: #4e7d03;
   --dark-green: #2a541b;
   --pink: #fbdff7;
@@ -77,14 +78,13 @@ p {
 }
 
 .button {
-    padding-right: 16px;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    
-    background: #F5F5F5;
-    gap: 7px;
-    color: var(--dark-gray);
+  background: var(--light-gray);
+  color: var(--dark-gray);
+  padding-right: 16px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  gap: 7px;  
 }
 
 .button:hover {

@@ -15,11 +15,13 @@ export const Projects = ({
 }) => {
   return (
     <div className="card" id="project-card">
-      <img className="project-image" src={image} alt="" />
-      <div className="project-info">
-        <h2 className="project-title">{name}</h2>
-        <p>{description}</p>
-        <Tags tags={tags} />
+      <img className="project-image" src={image} alt="Screenshot of website" />
+      <div className="project-box">
+        <div className="project-info">
+          <h2 className="project-title">{name}</h2>
+          <p>{description}</p>
+          <Tags tags={tags} />
+        </div>
         <div className="button-box">
           <a className="button view-live" href={netlify} target="_blank">
             <WebIcon />
