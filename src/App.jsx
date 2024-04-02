@@ -9,8 +9,6 @@ import { Footer } from "./components/Footer"
 import "./App.css"
 import projectData from "../projects.json"
 import articlesData from "../articles.json"
-import githubIcon from "./assets/github.svg"
-import webIcon from "./assets/live-demo.svg"
 
 const App = () => {
   const { projects } = projectData
@@ -26,8 +24,6 @@ const App = () => {
         tags={tags}
         netlify={netlify}
         github={github}
-        githubIcon={githubIcon}
-        webIcon={webIcon}
       />
     )
   )
