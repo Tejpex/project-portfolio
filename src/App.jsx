@@ -34,13 +34,14 @@ const App = () => {
   )
 
   const renderArticles = articles.map(
-    ({ title, writtenAt, description, image, link }) => (
+    ({ title, writtenAt, description, image, altText, link }) => (
       <Articles
         key={link}
         title={title}
         writtenAt={writtenAt}
         description={description}
         image={image}
+        altText={altText}
         link={link}
         articleIcon={articleIcon}
       />
@@ -57,7 +58,7 @@ const App = () => {
       </div>
       <div className="divider"></div>
       <div className="section" id="articles-section">
-        <h1 className="article-heading">My words</h1>
+        <h1 id="article-heading">My words</h1>
         {renderArticles}
       </div>
       <Skills />

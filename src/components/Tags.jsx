@@ -4,7 +4,7 @@ export const Tags = ({ tags }) => {
   return (
     <div className="tags-box">
       {tags.map((tag) => (
-        <p key={tag}>
+        <p className="tag" key={tag}>
           {tag}
         </p>
       ))}

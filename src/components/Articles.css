@@ -1,7 +1,7 @@
 #article-card {
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    gap: 24px;
     flex-wrap: wrap;
 }
 
@@ -19,29 +19,10 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    align-self: stretch;
-}
-
-.header-box h2 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    margin: 0;
-}
-
-.tag {
-    display: flex;
-    padding: 2px 6px;
-    align-items: flex-start;
-    background-color: var(--black);
-    color: var(--white);
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
 }
 
 #article-button {
-    color: var(--black);
+    color: var(--dark-gray);
 }
 
 #article-button:hover {
@@ -53,6 +34,7 @@
     #article-card {
         grid-column-start: 1;
         grid-column-end: 6;
+        gap: 32px;
     }
 
     .article-image {
