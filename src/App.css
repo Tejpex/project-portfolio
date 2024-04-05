@@ -84,6 +84,7 @@ p {
   border-radius: 40px;
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
   gap: 7px;  
 }
 

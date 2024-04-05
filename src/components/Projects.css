@@ -6,6 +6,7 @@
 
 .project-image {
     max-height: 200px;
+    max-width: 91.4%;
     align-self: stretch;
     object-fit: cover;
     border-bottom: 20px solid var(--green);
@@ -13,9 +14,13 @@
 }
 
 .project-box {
+    max-width: 91.4%;
+    height: 366px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 24px;
+    flex-grow: 1;
 }
 
 .project-info {
@@ -28,17 +33,19 @@
 .tags-box {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     gap: 4px;
 }
 
 .button-box {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    gap: 7.5%;
+    gap: 16px;
 }
 
 a {
-    color: #333;
+    color: var(--dark-gray);
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -46,11 +53,11 @@ a {
 }
 
 .view-live:hover {
-    background-color: #6c9f14;
+    background-color: var(--green);
 }
 
 .view-code:hover {
-    background-color: #D741A7;
+    background-color: var(--cerise);
 }
 
 @media (min-width:668px) and (max-width:1024px){
@@ -66,7 +73,13 @@ a {
     }
 
     .project-box {
-        gap: auto;
+        height: 280px;
+    }
+
+    .button-box {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 7.5%;
     }
 }
 
@@ -83,16 +96,12 @@ a {
     }
 
     .project-box {
-        gap: auto;
+        height: 280px;
     }
 
-    .project-box-info {
-        width: 42.5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    .button-box {
+        flex-direction: row;
         align-items: flex-start;
-        align-self: stretch;
-        text-wrap: wrap;
+        gap: 7.5%;
     }
 }

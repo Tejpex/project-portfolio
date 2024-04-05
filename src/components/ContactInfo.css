@@ -4,6 +4,7 @@
 }
 
 .contact-info-box {
+    max-width: 91.4%;
     display: flex;
     flex-direction: column;
     align-items: center;
