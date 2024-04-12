@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "name": "To Do",
+      "description": "This is a site where you can make a to-do-list, mark tasks as completed and/or remove them. React Context is used to handle global state.",
+      "image": "/project-todo.png",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "React Context"],
+      "netlify": "https://dulcet-truffle-49ef4e.netlify.app/",
+      "github": "https://github.com/Tejpex/project-todos-context-vite"
+    },
+    {
       "name": "Project Movies",
       "description": "The site uses an API-call to fetch a list of movies displayed on the first page. Each picture is a link to a page with more details about that specific movie, which is done with React Routes and useParams.",
       "image": "/project-movies.png",
