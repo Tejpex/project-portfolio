@@ -1,6 +1,30 @@
 {
   "projects": [
     {
+      "name": "Express API",
+      "description": "An API with a collection of zoo animals. Endpoints based on animal-ID or type of animal. Queries can also be made for the name of the animal and whether it is a predator or not.",
+      "image": "/project-express-API.png",
+      "tags": ["JavaScript", "React", "Express.JS", "APIs"],
+      "netlify": "https://zoo-animals-express-api.onrender.com/",
+      "github": "https://github.com/Tejpex/project-express-api"
+    },
+    {
+      "name": "Designer Collaboration",
+      "description": "The landing site for Urban Spin. It uses styled components to implement the design created by a UX-design student.",
+      "image": "/project-design.png",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "Styled components"],
+      "netlify": "https://urbanspin.netlify.app/",
+      "github": "https://github.com/Tejpex/project-design-handoff-vite"
+    },
+    {
+      "name": "Labyrinth",
+      "description": "This is a site that resembles an old-school adventure-game, where the user can walk back and forth through a maze. On each location there is a description of the current room and available options, fetched through an API.",
+      "image": "/project-labyrinth.png",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "Zustand", "APIs"],
+      "netlify": "https://sweet-gingersnap-a21875.netlify.app/",
+      "github": "https://github.com/Tejpex/project-labyrinth-zustand-vite"
+    },
+    {
       "name": "To Do",
       "description": "This is a site where you can make a to-do-list, mark tasks as completed and/or remove them. React Context is used to handle global state.",
       "image": "/project-todo.png",

@@ -25,11 +25,10 @@ export const Introduction = () => {
           />
           <p>
             I am a frontend developer with a background in teaching. I&apos;m
-            passionate about combining creativity and organizational skills, to
-            make information more available and to contribute to the
-            ever-evolving landscape of web development. My creativity and
-            aptitude for learning new skills makes me an asset to the field of
-            technology!
+            passionate about combining creativity, and organizational skills, to
+            make information more available and creating engaging, user-friendly
+            digital experiences. My creativity and aptitude for learning new
+            skills makes me confident in my ability to contribute to the success of any organization seeking a dedicated and talented frontend developer!
           </p>
         </div>
       </div>
