@@ -1,6 +1,48 @@
 {
   "projects": [
     {
+      "name": "Pluggin'",
+      "description": "An application designed for Swedish-speaking children aged 8-9 to practice different school subjects. Users can create accounts to track their progress and view score summaries. All scores are stored in a database, ensuring that each time a user logs in, their scores are updated.",
+      "image": "/project-pluggin.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "Styled components",
+        "JavaScript",
+        "React",
+        "Express.JS",
+        "MongoDB",
+        "APIs",
+        "Fullstack"
+      ],
+      "netlify": "https://pluggin.netlify.app/",
+      "github": "https://github.com/pernillasterner/technigo-final-project-pluggIn"
+    },
+    {
+      "name": "Happy Thoughts API",
+      "description": "For this project I did the backend to my previous Happy Thoughts Project. It uses MongoDB to store posted thoughts and likes. A get-request will have a response with the 20 latest thoughts.",
+      "image": "/project-happy-API.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "Express.JS",
+        "MongoDB",
+        "APIs"
+      ],
+      "netlify": "https://tejpex-happy-thoughts-api.onrender.com/",
+      "github": "https://github.com/Tejpex/project-happy-thoughts-api"
+    },
+    {
+      "name": "Mongo API",
+      "description": "This is an API, connected to Mongo DB, with a list of books. They can be filtered by id or author. Querys can be made to search for a title or to sort by rating.",
+      "image": "/project-mongo-API.png",
+      "tags": ["JavaScript", "React", "Express.JS", "MongoDB", "APIs"],
+      "netlify": "https://books-mongo-api.onrender.com/",
+      "github": "https://github.com/Tejpex/project-mongo-api"
+    },
+    {
       "name": "Express API",
       "description": "An API with a collection of zoo animals. Endpoints based on animal-ID or type of animal. Queries can also be made for the name of the animal and whether it is a predator or not.",
       "image": "/project-express-API.png",
