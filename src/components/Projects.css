@@ -5,7 +5,7 @@
 }
 
 .project-image {
-    max-height: 200px;
+    height: 200px;
     max-width: 91.4%;
     align-self: stretch;
     object-fit: cover;
@@ -15,7 +15,6 @@
 
 .project-box {
     max-width: 91.4%;
-    height: 366px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -68,12 +67,8 @@ a {
     }
 
     .project-image {
-        max-height: 280px;
-        max-width: 200px;
-    }
-
-    .project-box {
         height: 280px;
+        max-width: 200px;
     }
 
     .button-box {
@@ -91,12 +86,8 @@ a {
     }
 
     .project-image {
-        max-height: 280px;
-        max-width: 408px;
-    }
-
-    .project-box {
         height: 280px;
+        max-width: 408px;
     }
 
     .button-box {

@@ -21,7 +21,7 @@
 #top-intro-picture {
     display: none;
 }
-
+/*Use order to make it move instead of having it double.*/
 #intro-picture {
     margin-right: 22px;
 }
