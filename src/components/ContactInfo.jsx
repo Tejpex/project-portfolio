@@ -23,15 +23,24 @@ export const ContactInfo = () => {
           <h2>erikaellerekki@gmail.com</h2>
         </div>
         <div className="social-media-box">
-          <a href="https://www.linkedin.com/in/erika-wernbro/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/erika-wernbro/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={linkedIn} alt="LinkedIn-icon" className="icon" />
           </a>
-          <a href="https://github.com/Tejpex" target="_blank">
+          <a
+            href="https://github.com/Tejpex"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={githubSmall} alt="Github-icon" className="icon" />
           </a>
           <a
             href="https://stackoverflow.com/users/23468394/tejpex"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               src={stackOverflow}
@@ -39,10 +48,18 @@ export const ContactInfo = () => {
               className="icon"
             />
           </a>
-          <a href="https://bsky.app/profile/tejpex.bsky.social" target="_blank">
+          <a
+            href="https://bsky.app/profile/tejpex.bsky.social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={blueSky} alt="Bluesky-icon" className="icon" />
           </a>
-          <a href="https://www.instagram.com/tejpex/" target="_blank">
+          <a
+            href="https://www.instagram.com/mittlillagronaliv3/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={instagram} alt="Instagram-icon" className="icon" />
           </a>
         </div>

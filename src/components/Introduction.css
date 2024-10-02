@@ -4,12 +4,21 @@
     row-gap: 32px;
 }
 
+#intro-card {
+  display: grid;
+  grid-template-columns: 164px 494px;
+  grid-template-rows: 97px 164px;
+  row-gap: 32px;
+  column-gap: 22px;
+}
+
 #greeting-box {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-self: stretch;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: stretch;
 }
 
 #intro-heading {
@@ -19,16 +28,15 @@
 }
 
 #top-intro-picture {
-    display: none;
-}
-/*Use order to make it move instead of having it double.*/
-#intro-picture {
-    margin-right: 22px;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  margin-right: 22px;
 }
 
-.profile-box {
-    display: flex;
-    align-items: center;
+.profile-text {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  align-self: start;
 }
 
 .arrow-box {
@@ -51,41 +59,55 @@
 }
 
 @media (max-width:667px) {
-    #top-intro-picture {
-        display: flex;
-        margin: 0 0 32px;
-        align-self: center;
-    }
-    
-    #intro-picture {
-        display: none;
-    }
-    
-    #greeting {
-        font-size: 18px;
-    }
+  #intro-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
 
-    #intro-heading {
-        font-size: 32px;
-    }
+  #top-intro-picture {
+    display: flex;
+    align-self: center;
+    margin-bottom: 32px;
+  }
+
+  #greeting-box {
+    height: 61px;
+    margin-bottom: 32px;
+  }
+    
+  #greeting {
+    font-size: 18px;
+  }
+
+  #intro-heading {
+    font-size: 32px;
+  }
 }
 
 @media (min-width:668px) and (max-width:1024px) {
-    #intro-section {
-        padding-top: 128px;
-        padding-bottom: 20px;
-        row-gap: 118px;
-    }    
+  #intro-section {
+    padding-top: 128px;
+    padding-bottom: 20px;
+    row-gap: 118px;
+  }    
 }
 
 @media (min-width:1025px) {
-    #intro-section {
-        padding-top: 332px;
-        padding-bottom: 63px;
-        row-gap: 200px;
-    }
+  #intro-section {
+    padding-top: 332px;
+    padding-bottom: 63px;
+    row-gap: 200px;
+  }
 
-    #intro-heading {
-        margin-bottom: 16px;
-    }
+  #intro-card {
+    grid-template-columns: 164px 772px;
+    grid-template-rows: 137px 164px;
+    row-gap: 32px;
+    column-gap: 22px;
+  }
+
+  #intro-heading {
+    margin-bottom: 16px;
+  }
 }

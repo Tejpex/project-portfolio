@@ -22,12 +22,7 @@
       "name": "Simon Game",
       "description": "A game created with jQuery.",
       "image": "/simon-game.png",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "jQuery"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "jQuery"],
       "netlify": "https://cosmic-biscuit-989d56.netlify.app/",
       "github": "https://github.com/Tejpex/jQuery-Simon-Game"
     },
@@ -78,6 +73,14 @@
       "tags": ["HTML5", "CSS3", "JavaScript", "React", "Zustand", "APIs"],
       "netlify": "https://sweet-gingersnap-a21875.netlify.app/",
       "github": "https://github.com/Tejpex/project-labyrinth-zustand-vite"
+    },
+    {
+      "name": "Scout Info",
+      "description": "A site made for my local scout group with information about upcoming summer camp.",
+      "image": "/tallhagen-scout.png",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "React Context"],
+      "netlify": "https://tallhagen-scoutlager.netlify.app/",
+      "github": "https://github.com/Tejpex/tallhagen"
     },
     {
       "name": "To Do",
