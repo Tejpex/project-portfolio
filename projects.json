@@ -19,6 +19,19 @@
       "github": "https://github.com/pernillasterner/technigo-final-project-pluggIn"
     },
     {
+      "name": "Simon Game",
+      "description": "A game created with jQuery.",
+      "image": "/simon-game.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "jQuery"
+      ],
+      "netlify": "https://cosmic-biscuit-989d56.netlify.app/",
+      "github": "https://github.com/Tejpex/jQuery-Simon-Game"
+    },
+    {
       "name": "Happy Thoughts API",
       "description": "For this project I did the backend to my previous Happy Thoughts Project. It uses MongoDB to store posted thoughts and likes. A get-request will have a response with the 20 latest thoughts.",
       "image": "/project-happy-API.png",

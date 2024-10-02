@@ -6,7 +6,7 @@ export const Skills = () => {
       <h1 className="ivory-text" id="skills-heading">
         Skills
       </h1>
-      <div className="card ivory-text" id="skills-card-one">
+      <div className="card ivory-text" id="skills-card">
         <div id="skills-box">
           <h2 className="cerise">Code</h2>
           <ul>
@@ -34,8 +34,6 @@ export const Skills = () => {
             <li>Slack</li>
           </ul>
         </div>
-      </div>
-      <div className="card ivory-text" id="skills-card-two">
         <div id="skills-box">
           <h2 className="orange">Upcoming</h2>
           <ul>
