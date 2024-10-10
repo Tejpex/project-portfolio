@@ -59,6 +59,14 @@
       "github": "https://github.com/Tejpex/project-express-api"
     },
     {
+      "name": "Business Site Revisited",
+      "description": "A simple business-site for Brunch House. Made with Express and EJS to send data back and forth between front- and backend.",
+      "image": "/project-business.png",
+      "tags": ["EJS", "JavaScript", "CSS3", "Express.JS", "Fullstack"],
+      "netlify": "https://brunch-house.onrender.com/",
+      "github": "https://github.com/Tejpex/business-site"
+    },
+    {
       "name": "Designer Collaboration",
       "description": "The landing site for Urban Spin. It uses styled components to implement the design created by a UX-design student.",
       "image": "/project-design.png",
@@ -156,7 +164,7 @@
     },
     {
       "name": "Business Site",
-      "description": "A business-site for Waffle House. The site uses HTML to create a form and then post the answers to http-bin.",
+      "description": "A business-site for Brunch House. The site uses HTML to create a form and then post the answers to http-bin.",
       "image": "/project-business.png",
       "tags": ["HTML5", "CSS3"],
       "netlify": "https://star-team-1-business-site.netlify.app/",
