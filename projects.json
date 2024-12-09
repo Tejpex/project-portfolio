@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "name": "Blog Project",
+      "description": "A blog made with Python and Flask. Admin can create, edit and delete posts. Users can register to comment posts.",
+      "image": "/project-blog.png",
+      "tags": [
+        "Python",
+        "Flask",
+        "HTML5",
+        "Bootstrap",
+        "SQL",
+        "Fullstack"
+      ],
+      "netlify": "https://blog-project-jet-eta.vercel.app/",
+      "github": "https://github.com/Tejpex/BlogFinal"
+    },
+    {
       "name": "Pluggin'",
       "description": "An application designed for Swedish-speaking children aged 8-9 to practice different school subjects. Users can create accounts to track their progress and view score summaries. All scores are stored in a database, ensuring that each time a user logs in, their scores are updated.",
       "image": "/project-pluggin.png",
