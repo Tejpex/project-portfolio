@@ -165,8 +165,8 @@
       "name": "Mathbot",
       "description": "A chatbot that delivered endless math problems to the user.",
       "image": "/project-chatbot.png",
-      "tags": ["HTML5", "CSS3", "JavaScript"],
-      "netlify": "https://mathewthemathbot.netlify.app/",
+      "tags": ["HTML5", "CSS3", "JavaScript", "TypeScript"],
+      "netlify": "https://math-bot.netlify.app/",
       "github": "https://github.com/Tejpex/project-chatbot"
     },
     {
