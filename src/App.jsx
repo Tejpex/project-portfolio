@@ -7,10 +7,12 @@ import { ContactInfo } from "./components/ContactInfo"
 import { Footer } from "./components/Footer"
 
 import "./App.css"
+import portfolioData from "../portfolioText.json"
 import projectData from "../projects.json"
 import articlesData from "../articles.json"
 
 const App = () => {
+  const { portfolioText } = portfolioData
   const { projects } = projectData
   const { articles } = articlesData
 
@@ -44,7 +46,7 @@ const App = () => {
 
   return (
     <div>
-      <Introduction />
+      <Introduction data={portfolioText.introduction}/>
       <Tech />
       <div className="section" id="projects-section">
         <h1 id="projects-heading">Featured projects</h1>

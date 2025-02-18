@@ -21,5 +21,5 @@ export const GithubIcon = ({ fill = "#333333" }) => {
 }
 
 GithubIcon.propTypes = {
-  fill: PropTypes.string.isRequired,
+  fill: PropTypes.string,
 }

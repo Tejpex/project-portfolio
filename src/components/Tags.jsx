@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import PropTypes from "prop-types"
 
 export const Tags = ({ tags }) => {
   return (
@@ -9,8 +9,8 @@ export const Tags = ({ tags }) => {
         </p>
       ))}
     </div>
-  );
-};
+  )
+}
 
 Tags.propTypes = {
   tags: PropTypes.array,

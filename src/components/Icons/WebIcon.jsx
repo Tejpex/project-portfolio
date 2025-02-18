@@ -11,5 +11,5 @@ export const WebIcon = ({ fill = "#333333" }) => {
 }
 
 WebIcon.propTypes = {
-  fill: PropTypes.string.isRequired,
+  fill: PropTypes.string,
 }

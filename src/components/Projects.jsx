@@ -2,8 +2,7 @@ import PropTypes from "prop-types"
 
 import "./Projects.css"
 import { Tags } from "./Tags"
-import { WebIcon } from "./Icons/WebIcon"
-import { GithubIcon } from "./Icons/GithubIcon"
+import { Button } from "./Button"
 
 export const Projects = ({
   name,
@@ -23,14 +22,18 @@ export const Projects = ({
           <Tags tags={tags} />
         </div>
         <div className="button-box">
-          <a className="button view-live" href={netlify} target="_blank">
-            <WebIcon />
-            Live demo
-          </a>
-          <a className="button view-code" href={github} target="_blank">
-            <GithubIcon />
-            View the code
-          </a>
+          <Button
+            type="button view-live"
+            link={netlify}
+            icon="web"
+            text="Live demo"
+          />
+          <Button
+            type="button view-code"
+            link={github}
+            icon="github"
+            text="View the code"
+          />
         </div>
       </div>
     </div>

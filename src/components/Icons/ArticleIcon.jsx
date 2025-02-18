@@ -21,5 +21,5 @@ export const ArticleIcon = ({ fill = "#333333" }) => {
 }
 
 ArticleIcon.propTypes = {
-  fill: PropTypes.string.isRequired,
+  fill: PropTypes.string,
 }

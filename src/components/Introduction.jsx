@@ -1,8 +1,9 @@
+import PropTypes from "prop-types"
 import arrow from "../assets/arrow.svg"
 import profilePicture from "../assets/CV-bild.jpg"
 import "./Introduction.css"
 
-export const Introduction = () => {
+export const Introduction = ({ data }) => {
   return (
     <div className="section" id="intro-section">
       <div className="card" id="intro-card">
@@ -13,15 +14,11 @@ export const Introduction = () => {
           id="top-intro-picture"
         />
         <div id="greeting-box">
-          <h2 id="greeting">Hi, I&apos;m Erika Wernbro</h2>
-          <h1 id="intro-heading">Frontend Developer</h1>
-        </div>   
+          <h2 id="greeting">{data.greeting}</h2>
+          <h1 id="intro-heading">{data.title}</h1>
+        </div>
         <p className="profile-text">
-          I am a frontend developer with a background in teaching. I&apos;m
-          passionate about combining creativity, and organizational skills, to
-          make information more available and creating engaging, user-friendly
-          digital experiences. My creativity and aptitude for learning new
-          skills makes me confident in my ability to contribute to the success of any organization seeking a dedicated and talented junior developer!
+          {data.description}
         </p>
       </div>
       <div className="arrow-box card">
@@ -29,4 +26,8 @@ export const Introduction = () => {
       </div>
     </div>
   )
+}
+
+Introduction.propTypes = {
+  data: PropTypes.object
 }
