@@ -13,12 +13,12 @@ export const Skills = () => {
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Javascript</li>
-            <li>ES6</li>
-            <li>JSX</li>
+            <li>Typescript</li>
             <li>React</li>
             <li>Styled Components</li>
             <li>Node.js</li>
             <li>Express.js</li>
+            <li>Python</li>
           </ul>
         </div>
         <div id="skills-box">
@@ -32,13 +32,14 @@ export const Skills = () => {
             <li>Adobe Illustrator</li>
             <li>Adobe InDesign</li>
             <li>Slack</li>
+            <li>PyCharm</li>
           </ul>
         </div>
         <div id="skills-box">
           <h2 className="orange">Upcoming</h2>
           <ul>
-            <li>Python</li>
-            <li>Typescript</li>
+            <li>React Native</li>
+            <li>PostreSQL</li>
           </ul>
         </div>
         <div id="skills-box">
