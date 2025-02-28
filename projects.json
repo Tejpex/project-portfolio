@@ -1,17 +1,18 @@
 {
   "projects": [
     {
+      "name": "Carioca Rummy - UNDER CONSTRUCTION",
+      "description": "A card game played in the browser. Work still in progress.",
+      "image": "/carioca-rummy.png",
+      "tags": ["HTML5", "CSS3", "Styled components", "JavaScript", "React", "React Context"],
+      "netlify": "https://carioca-rummy.netlify.app/",
+      "github": "https://github.com/Tejpex/carioca-rummy"
+    },
+    {
       "name": "Blog Project",
       "description": "A blog made with Python and Flask. Admin can create, edit and delete posts. Users can register to comment posts.",
       "image": "/project-blog.png",
-      "tags": [
-        "Python",
-        "Flask",
-        "HTML5",
-        "Bootstrap",
-        "SQL",
-        "Fullstack"
-      ],
+      "tags": ["Python", "Flask", "HTML5", "Bootstrap", "SQL", "Fullstack"],
       "netlify": "https://blog-project-jet-eta.vercel.app/",
       "github": "https://github.com/Tejpex/BlogFinal"
     },
