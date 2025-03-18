@@ -3,9 +3,8 @@ import profilePicture from "../assets/CV-bild.jpg"
 import linkedIn from "../assets/linkedin.svg"
 import githubSmall from "../assets/github-small.svg"
 import stackOverflow from "../assets/stackoverflow.svg"
-import blueSky from "../assets/bluesky.png"
+import blueSky from "../assets/bluesky.svg"
 import instagram from "../assets/instagram.svg"
-
 
 export const ContactInfo = () => {
   return (
@@ -53,7 +52,7 @@ export const ContactInfo = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={blueSky} alt="Bluesky-icon" className="icon" />
+            <img src={blueSky} alt="Bluesky-icon" className="icon bsky" />
           </a>
           <a
             href="https://www.instagram.com/mittlillagronaliv3/"

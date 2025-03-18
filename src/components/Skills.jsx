@@ -39,7 +39,7 @@ export const Skills = () => {
           <h2 className="orange">Upcoming</h2>
           <ul>
             <li>React Native</li>
-            <li>PostreSQL</li>
+            <li>PostgreSQL</li>
           </ul>
         </div>
         <div id="skills-box">
