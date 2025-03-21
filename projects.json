@@ -9,6 +9,14 @@
       "github": "https://github.com/Tejpex/carioca-rummy"
     },
     {
+      "name": "Holidays' Chatbot",
+      "description": "This is a chatbot that will tell you which Swedish Holiday it is depending on your answer to the chatbot's questions. It is made with TypeScript and Vanilla JS.",
+      "image": "/project-holidays.png",
+      "tags": ["HTML5", "CSS3", "JavaScript", "TypeScript"],
+      "netlify": "https://holidays-chatbot.netlify.app/",
+      "github": "https://github.com/Tejpex/holidays-chatbot"
+    },
+    {
       "name": "Blog Project",
       "description": "A blog made with Python and Flask. Admin can create, edit and delete posts. Users can register to comment posts.",
       "image": "/project-blog.png",
