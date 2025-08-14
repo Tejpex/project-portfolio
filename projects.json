@@ -4,9 +4,32 @@
       "name": "Carioca Rummy - UNDER CONSTRUCTION",
       "description": "A card game played in the browser. Work still in progress.",
       "image": "/carioca-rummy.png",
-      "tags": ["HTML5", "CSS3", "Styled components", "JavaScript", "React", "React Context"],
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "Styled components",
+        "JavaScript",
+        "React",
+        "React Context"
+      ],
       "netlify": "https://carioca-rummy.netlify.app/",
       "github": "https://github.com/Tejpex/carioca-rummy"
+    },
+    {
+      "name": "Plants Webshop",
+      "description": "A webshop for the fictional store LÖV. It uses Stripe to handle payment and products are stored in Supabase. The site is styled with Tailwind CSS.",
+      "image": "/plants-webshop.png",
+      "tags": [
+        "JavaScript",
+        "React",
+        "Zustand",
+        "Tailwind CSS",
+        "Supabase",
+        "Stripe",
+        "Fullstack"
+      ],
+      "netlify": "https://lov-plantshop.netlify.app/",
+      "github": "https://github.com/Collaborators-in-Tech/webshop"
     },
     {
       "name": "Holidays' Chatbot",
